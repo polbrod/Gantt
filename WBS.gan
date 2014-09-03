@@ -3,8 +3,8 @@
     <view zooming-state="default:10" id="gantt-chart">
         <field id="tpd3" name="Name" width="63" order="0"/>
         <field id="tpd6" name="Duration" width="9" order="1"/>
-        <field id="tpd5" name="End date" width="9" order="3"/>
         <field id="tpd4" name="Begin date" width="13" order="2"/>
+        <field id="tpd5" name="End date" width="9" order="3"/>
         <field id="tpc1" name="" width="4" order="4"/>
         <option id="taskLabelUp" value=""/>
         <option id="taskLabelDown" value=""/>
@@ -130,7 +130,7 @@
             <depend id="308" type="2" difference="0" hardness="Strong"/>
             <depend id="310" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="133" name="Build (RW-3)" color="#8cb6ce" meeting="false" project="true" start="2014-07-20" duration="274" complete="0" expand="false">
+        <task id="133" name="Build (RW-3)" color="#8cb6ce" meeting="false" project="true" start="2014-07-20" duration="274" complete="0" expand="true">
             <depend id="134" type="2" difference="0" hardness="Strong"/>
             <depend id="314" type="2" difference="0" hardness="Strong"/>
             <task id="304" name="Powertrain" meeting="false" start="2014-07-20" duration="223" complete="0" expand="false">
@@ -248,7 +248,7 @@
                     <task id="311" name="Test Full Powertrain On Dyno [not needed]" color="#8cb6ce" meeting="false" start="2015-03-07" duration="1" complete="0" expand="true"/>
                 </task>
             </task>
-            <task id="306" name="Chassis" meeting="false" start="2014-07-20" duration="236" complete="0" expand="false">
+            <task id="306" name="Chassis" meeting="false" start="2014-07-20" duration="236" complete="0" expand="true">
                 <depend id="324" type="2" difference="0" hardness="Strong"/>
                 <task id="217" name="Define Requirements (Chassis)" color="#8cb6ce" meeting="false" start="2014-07-20" duration="31" complete="0" expand="true">
                     <depend id="211" type="2" difference="0" hardness="Strong"/>
@@ -261,7 +261,7 @@
                     <depend id="456" type="2" difference="0" hardness="Strong"/>
                     <depend id="499" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="215" name="Build (Chassis)" color="#000000" meeting="false" start="2014-08-31" duration="164" complete="0" expand="false">
+                <task id="215" name="Build (Chassis)" color="#000000" meeting="false" start="2014-08-31" duration="164" complete="0" expand="true">
                     <depend id="219" type="2" difference="0" hardness="Strong"/>
                     <depend id="424" type="2" difference="0" hardness="Strong"/>
                     <task id="425" name="Frame" meeting="false" start="2014-08-31" duration="110" complete="0" expand="true">
@@ -355,7 +355,7 @@
                             <task id="497" name="Build (Fairing Mount)" meeting="false" start="2015-01-18" duration="30" complete="0" expand="true"/>
                         </task>
                     </task>
-                    <task id="454" name="Suspension and Brakes" meeting="false" start="2014-08-31" duration="58" complete="0" expand="false">
+                    <task id="454" name="Suspension and Brakes" meeting="false" start="2014-08-31" duration="157" complete="0" expand="false">
                         <depend id="219" type="2" difference="0" hardness="Strong"/>
                         <task id="499" name="Define Requirements (S and B)" color="#8cb6ce" meeting="false" start="2014-08-31" duration="14" complete="0" expand="true">
                             <depend id="501" type="2" difference="0" hardness="Strong"/>
@@ -372,9 +372,9 @@
                             <task id="508" name="Purchase Suspendsion Components" meeting="false" start="2014-09-29" duration="30" complete="0" expand="true"/>
                             <task id="510" name="Purchase Brakes" meeting="false" start="2014-09-29" duration="30" complete="0" expand="true"/>
                         </task>
-                    </task>
-                    <task id="503" name="Build (S and B)" color="#000000" meeting="false" start="2015-01-11" duration="30" complete="0" expand="false">
-                        <task id="512" name="Suspension Testing and Tunning" meeting="false" start="2015-01-11" duration="30" complete="0" expand="true"/>
+                        <task id="503" name="Build (S and B)" color="#000000" meeting="false" start="2015-01-11" duration="30" complete="0" expand="false">
+                            <task id="512" name="Suspension Testing and Tunning" meeting="false" start="2015-01-11" duration="30" complete="0" expand="true"/>
+                        </task>
                     </task>
                 </task>
                 <task id="219" name="Integration Test (Chassis)" meeting="false" start="2015-02-19" duration="30" complete="0" expand="false">
@@ -409,7 +409,6 @@
                         <depend id="592" type="2" difference="0" hardness="Strong"/>
                     </task>
                     <task id="592" name="Build Fairings" meeting="false" start="2015-01-15" duration="30" complete="0" expand="true">
-                        <depend id="594" type="2" difference="0" hardness="Strong"/>
                         <depend id="861" type="2" difference="0" hardness="Strong"/>
                     </task>
                     <task id="861" name="Paint Fairings" meeting="false" start="2015-02-15" duration="7" complete="0" expand="true"/>
@@ -516,10 +515,10 @@
         <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd3" order="0" width="234" visible="true"/>
-        <displaycolumn property-id="tpd6" order="1" width="34" visible="true"/>
-        <displaycolumn property-id="tpd5" order="3" width="35" visible="true"/>
-        <displaycolumn property-id="tpd4" order="2" width="49" visible="true"/>
+        <displaycolumn property-id="tpd3" order="0" width="223" visible="true"/>
+        <displaycolumn property-id="tpd6" order="1" width="33" visible="true"/>
+        <displaycolumn property-id="tpd4" order="2" width="47" visible="true"/>
+        <displaycolumn property-id="tpd5" order="3" width="34" visible="true"/>
         <displaycolumn property-id="tpc1" order="4" width="15" visible="true"/>
     </taskdisplaycolumns>
     <previous/>
