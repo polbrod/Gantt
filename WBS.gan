@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Pikes Peak 2014 2015" company="Buckeye Current" webLink="http://" view-date="2014-05-01" view-index="0" gantt-divider-location="371" resource-divider-location="300" version="2.0" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Pikes Peak 2014 2015" company="Buckeye Current" webLink="http://" view-date="2014-07-01" view-index="0" gantt-divider-location="371" resource-divider-location="300" version="2.0" locale="en_US">
     <description/>
-    <view zooming-state="default:10" id="gantt-chart">
-        <field id="tpd3" name="Name" width="63" order="0"/>
+    <view zooming-state="default:9" id="gantt-chart">
+        <field id="tpd3" name="Name" width="61" order="0"/>
         <field id="tpd6" name="Duration" width="9" order="1"/>
         <field id="tpd4" name="Begin date" width="13" order="2"/>
-        <field id="tpd5" name="End date" width="9" order="3"/>
+        <field id="tpd5" name="End date" width="10" order="3"/>
         <field id="tpc1" name="" width="4" order="4"/>
         <option id="taskLabelUp" value=""/>
         <option id="taskLabelDown" value=""/>
@@ -130,10 +130,10 @@
             <depend id="308" type="2" difference="0" hardness="Strong"/>
             <depend id="310" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="133" name="Build (RW-3)" color="#8cb6ce" meeting="false" project="true" start="2014-07-20" duration="274" complete="0" expand="true">
+        <task id="133" name="Build (RW-3)" color="#8cb6ce" meeting="false" project="true" start="2014-07-20" duration="275" complete="0" expand="true">
             <depend id="134" type="2" difference="0" hardness="Strong"/>
             <depend id="314" type="2" difference="0" hardness="Strong"/>
-            <task id="304" name="Powertrain" meeting="false" start="2014-07-20" duration="223" complete="0" expand="false">
+            <task id="304" name="Powertrain" meeting="false" start="2014-07-20" duration="224" complete="0" expand="false">
                 <depend id="322" type="2" difference="0" hardness="Strong"/>
                 <task id="170" name="Define Requirements (Powertrain)" color="#8cb6ce" meeting="false" start="2014-07-20" duration="33" complete="0" expand="true">
                     <depend id="171" type="2" difference="0" hardness="Strong"/>
@@ -150,7 +150,6 @@
                     <depend id="372" type="2" difference="0" hardness="Strong"/>
                 </task>
                 <task id="172" name="Build (Powertrain)" color="#8cb6ce" meeting="false" start="2014-08-29" duration="157" complete="0" expand="false">
-                    <depend id="311" type="2" difference="0" hardness="Strong"/>
                     <task id="298" name="Motor" color="#000000" meeting="false" start="2014-08-29" duration="69" complete="0" expand="false">
                         <task id="248" name="Define Requirements (Motor)" color="#8cb6ce" meeting="false" start="2014-08-29" duration="1" complete="0" expand="true">
                             <depend id="246" type="2" difference="0" hardness="Strong"/>
@@ -229,8 +228,8 @@
                                 <depend id="404" type="2" difference="0" hardness="Strong"/>
                             </task>
                             <task id="404" name="Module" meeting="false" start="2014-12-08" duration="60" complete="0" expand="true"/>
-                            <task id="408" name="Sense Wiring" color="#8cb6ce" meeting="false" start="2014-11-23" duration="60" complete="0" expand="true"/>
-                            <task id="410" name="HV bussing" meeting="false" start="2014-11-23" duration="60" complete="0" expand="true"/>
+                            <task id="408" name="Sense Wiring" color="#8cb6ce" meeting="false" start="2014-11-23" duration="74" complete="0" expand="true"/>
+                            <task id="410" name="HV bussing" meeting="false" start="2014-11-23" duration="74" complete="0" expand="true"/>
                         </task>
                     </task>
                     <task id="340" name="Final Drive Design" color="#8cb6ce" meeting="false" start="2014-09-08" duration="30" complete="0" expand="true"/>
@@ -238,17 +237,12 @@
                         <depend id="370" type="2" difference="0" hardness="Strong"/>
                     </task>
                 </task>
-                <task id="173" name="Integration Testing (Powertrain)" color="#000000" meeting="false" start="2014-12-10" duration="84" complete="0" expand="false">
-                    <task id="370" name="Test Motor with Controller" color="#8cb6ce" meeting="false" start="2014-12-10" duration="60" complete="0" expand="true">
-                        <depend id="311" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="418" name="Test Battery with BMS" color="#8cb6ce" meeting="false" start="2015-02-04" duration="30" complete="0" expand="true">
-                        <depend id="311" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="311" name="Test Full Powertrain On Dyno [not needed]" color="#8cb6ce" meeting="false" start="2015-03-07" duration="1" complete="0" expand="true"/>
+                <task id="173" name="Integration Testing (Powertrain)" color="#000000" meeting="false" start="2014-12-10" duration="85" complete="0" expand="false">
+                    <task id="370" name="Test Motor with Controller" color="#8cb6ce" meeting="false" start="2014-12-10" duration="60" complete="0" expand="true"/>
+                    <task id="418" name="Test Battery with BMS" color="#8cb6ce" meeting="false" start="2015-02-06" duration="30" complete="0" expand="true"/>
                 </task>
             </task>
-            <task id="306" name="Chassis" meeting="false" start="2014-07-20" duration="236" complete="0" expand="true">
+            <task id="306" name="Chassis" meeting="false" start="2014-07-20" duration="236" complete="0" expand="false">
                 <depend id="324" type="2" difference="0" hardness="Strong"/>
                 <task id="217" name="Define Requirements (Chassis)" color="#8cb6ce" meeting="false" start="2014-07-20" duration="31" complete="0" expand="true">
                     <depend id="211" type="2" difference="0" hardness="Strong"/>
@@ -261,10 +255,10 @@
                     <depend id="456" type="2" difference="0" hardness="Strong"/>
                     <depend id="499" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="215" name="Build (Chassis)" color="#000000" meeting="false" start="2014-08-31" duration="164" complete="0" expand="true">
+                <task id="215" name="Build (Chassis)" color="#000000" meeting="false" start="2014-08-31" duration="164" complete="0" expand="false">
                     <depend id="219" type="2" difference="0" hardness="Strong"/>
                     <depend id="424" type="2" difference="0" hardness="Strong"/>
-                    <task id="425" name="Frame" meeting="false" start="2014-08-31" duration="110" complete="0" expand="true">
+                    <task id="425" name="Frame" meeting="false" start="2014-08-31" duration="110" complete="0" expand="false">
                         <depend id="219" type="2" difference="0" hardness="Strong"/>
                         <task id="428" name="Define Requirements(Frame)" color="#8cb6ce" meeting="false" start="2014-08-31" duration="1" complete="0" expand="true">
                             <depend id="430" type="2" difference="0" hardness="Strong"/>
@@ -304,7 +298,7 @@
                             <task id="450" name="Do required rolling Chassis Maintienance" color="#8cb6ce" meeting="false" start="2014-11-22" duration="30" complete="0" expand="true"/>
                         </task>
                     </task>
-                    <task id="452" name="Mounting Hardware" meeting="false" start="2014-10-15" duration="121" complete="0" expand="true">
+                    <task id="452" name="Mounting Hardware" meeting="false" start="2014-10-15" duration="121" complete="0" expand="false">
                         <depend id="219" type="2" difference="0" hardness="Strong"/>
                         <task id="456" name="Design Requirements (Mounting)" meeting="false" start="2014-10-15" duration="14" complete="0" expand="true">
                             <depend id="460" type="2" difference="0" hardness="Strong"/>
@@ -387,7 +381,7 @@
                     <depend id="233" type="2" difference="0" hardness="Strong"/>
                     <depend id="583" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="233" name="Design System (Aero)" meeting="false" start="2014-09-03" duration="99" complete="0" expand="true">
+                <task id="233" name="Design System (Aero)" meeting="false" start="2014-09-03" duration="99" complete="0" expand="false">
                     <depend id="229" type="2" difference="0" hardness="Strong"/>
                     <task id="583" name="Decide Fairing Material" color="#8cb6ce" meeting="false" start="2014-09-03" duration="7" complete="0" expand="true">
                         <depend id="585" type="2" difference="0" hardness="Strong"/>
@@ -414,7 +408,7 @@
                     <task id="861" name="Paint Fairings" meeting="false" start="2015-02-15" duration="7" complete="0" expand="true"/>
                 </task>
             </task>
-            <task id="308" name="Electronics" meeting="false" start="2014-07-20" duration="253" complete="0" expand="false">
+            <task id="308" name="Electronics" meeting="false" start="2014-07-20" duration="254" complete="0" expand="false">
                 <depend id="320" type="2" difference="0" hardness="Strong"/>
                 <task id="223" name="Define Requirements (Electronics)" color="#8cb6ce" meeting="false" start="2014-07-20" duration="43" complete="0" expand="true">
                     <depend id="221" type="2" difference="0" hardness="Strong"/>
@@ -422,84 +416,98 @@
                     <depend id="524" type="2" difference="0" hardness="Strong"/>
                     <depend id="526" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="221" name="Design (Electronics)" meeting="false" start="2014-09-02" duration="49" complete="0" expand="false">
+                <task id="221" name="Design (Electronics)" meeting="false" start="2014-09-02" duration="51" complete="0" expand="false">
                     <depend id="227" type="2" difference="0" hardness="Strong"/>
                     <depend id="537" type="2" difference="0" hardness="Strong"/>
                     <depend id="546" type="2" difference="0" hardness="Strong"/>
                     <depend id="548" type="2" difference="0" hardness="Strong"/>
-                    <depend id="550" type="2" difference="0" hardness="Strong"/>
                     <depend id="552" type="2" difference="0" hardness="Strong"/>
                     <depend id="554" type="2" difference="0" hardness="Strong"/>
                     <depend id="556" type="2" difference="0" hardness="Strong"/>
-                    <depend id="558" type="2" difference="0" hardness="Strong"/>
-                    <depend id="560" type="2" difference="0" hardness="Strong"/>
-                    <depend id="563" type="2" difference="0" hardness="Strong"/>
-                    <task id="514" name="Define subcomponents" meeting="false" start="2014-09-02" duration="1" complete="0" expand="true">
-                        <depend id="534" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="524" name="Define connectors" meeting="false" start="2014-09-02" duration="7" complete="0" expand="true">
-                        <depend id="534" type="2" difference="0" hardness="Strong"/>
-                    </task>
                     <task id="526" name="Define Data Bus" meeting="false" start="2014-09-02" duration="7" complete="0" expand="true">
+                        <depend id="514" type="2" difference="0" hardness="Strong"/>
                         <depend id="528" type="2" difference="0" hardness="Strong"/>
                         <depend id="532" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="528" name="Design Critiical" meeting="false" start="2014-09-09" duration="7" complete="0" expand="true">
-                        <depend id="408" type="2" difference="0" hardness="Strong"/>
-                        <depend id="530" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="530" name="Design Non-Critical" meeting="false" start="2014-09-16" duration="7" complete="0" expand="true">
+                    <task id="514" name="Define subcomponents" meeting="false" start="2014-09-09" duration="7" complete="0" expand="true">
+                        <depend id="528" type="2" difference="0" hardness="Strong"/>
                         <depend id="532" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="524" name="Define connectors" meeting="false" start="2014-09-02" duration="14" complete="0" expand="true">
                         <depend id="534" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="532" name="Design all Software" meeting="false" start="2014-09-23" duration="7" complete="0" expand="true"/>
-                    <task id="534" name="Define Dimensions of all hardware" color="#8cb6ce" meeting="false" start="2014-10-15" duration="7" complete="0" expand="true"/>
+                    <task id="528" name="Design Components" meeting="false" start="2014-09-16" duration="30" complete="0" expand="true">
+                        <depend id="408" type="2" difference="0" hardness="Strong"/>
+                        <depend id="534" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="532" name="Design all Software" meeting="false" start="2014-09-16" duration="30" complete="0" expand="true">
+                        <depend id="534" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="534" name="Define Dimensions of all hardware" color="#8cb6ce" meeting="false" start="2014-10-17" duration="7" complete="0" expand="true"/>
                 </task>
-                <task id="227" name="Buid (Electronics)" color="#000000" meeting="false" start="2014-10-22" duration="101" complete="0" expand="false">
+                <task id="227" name="Buid (Electronics)" color="#000000" meeting="false" start="2014-10-24" duration="100" complete="0" expand="false">
                     <depend id="565" type="2" difference="0" hardness="Strong"/>
                     <depend id="567" type="2" difference="0" hardness="Strong"/>
                     <depend id="569" type="2" difference="0" hardness="Strong"/>
                     <depend id="571" type="2" difference="0" hardness="Strong"/>
-                    <task id="558" name="Critiical" meeting="false" start="2014-10-22" duration="100" complete="0" expand="true">
-                        <depend id="560" type="2" difference="0" hardness="Strong"/>
-                        <task id="537" name="Datalogging" meeting="false" start="2014-10-22" duration="100" complete="0" expand="true"/>
-                        <task id="546" name="Low Voltaage Power" meeting="false" start="2014-10-22" duration="60" complete="0" expand="true"/>
-                        <task id="548" name="High Voltage Switching" meeting="false" start="2014-10-22" duration="60" complete="0" expand="true"/>
-                        <task id="550" name="Traction Control" meeting="false" start="2014-10-22" duration="100" complete="0" expand="true"/>
-                        <task id="552" name="Battery Managment system" color="#8cb6ce" meeting="false" start="2014-10-22" duration="100" complete="0" expand="true">
+                    <task id="546" name="Low Voltaage Power" meeting="false" start="2014-10-24" duration="45" complete="0" expand="true">
+                        <depend id="370" type="2" difference="0" hardness="Strong"/>
+                        <depend id="418" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="548" name="High Voltage Switching" meeting="false" start="2014-10-24" duration="45" complete="0" expand="true">
+                        <depend id="370" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="914" name="Rider Interface" meeting="false" start="2014-10-24" duration="45" complete="0" expand="true">
+                        <depend id="370" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="554" name="Charging" color="#8cb6ce" meeting="false" start="2014-10-24" duration="45" complete="0" expand="true">
+                        <depend id="370" type="2" difference="0" hardness="Strong"/>
+                        <depend id="418" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="552" name="Battery Managment system" color="#8cb6ce" meeting="false" start="2014-10-24" duration="100" complete="0" expand="true">
+                        <depend id="418" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="537" name="Datalogging" meeting="false" start="2014-10-24" duration="100" complete="0" expand="false">
+                        <depend id="418" type="2" difference="0" hardness="Strong"/>
+                        <task id="917" name="Data Storage" meeting="false" start="2014-10-24" duration="45" complete="0" expand="true">
+                            <depend id="370" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                        <task id="922" name="m/c telemetry" meeting="false" start="2014-10-24" duration="45" complete="0" expand="true">
+                            <depend id="370" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                        <task id="915" name="Battery Telemetry" meeting="false" start="2014-10-24" duration="100" complete="0" expand="true">
                             <depend id="418" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="554" name="Charging" color="#8cb6ce" meeting="false" start="2014-10-22" duration="60" complete="0" expand="true"/>
-                        <task id="556" name="Wiring harness" meeting="false" start="2014-10-22" duration="60" complete="0" expand="true"/>
+                        <task id="924" name="All" meeting="false" start="2014-10-24" duration="100" complete="0" expand="true"/>
                     </task>
-                    <task id="560" name="Build all Other" meeting="false" start="2015-02-04" duration="1" complete="0" expand="true"/>
-                    <task id="563" name="Write Software" color="#8cb6ce" meeting="false" start="2014-10-22" duration="100" complete="0" expand="true"/>
+                    <task id="556" name="Wiring harness" meeting="false" start="2014-10-24" duration="100" complete="0" expand="true"/>
                 </task>
-                <task id="565" name="Integration Testing (Electronics)" meeting="false" start="2015-02-05" duration="60" complete="0" expand="false">
-                    <task id="567" name="Software Testing" meeting="false" start="2015-02-05" duration="30" complete="1" expand="true"/>
-                    <task id="569" name="Unit Testing Critical" meeting="false" start="2015-02-05" duration="30" complete="0" expand="true">
+                <task id="921" name="Balancing" meeting="false" start="2014-08-01" duration="1" complete="0" expand="true"/>
+                <task id="565" name="Integration Testing (Electronics)" meeting="false" start="2015-02-06" duration="60" complete="0" expand="false">
+                    <task id="567" name="Software Testing" meeting="false" start="2015-02-06" duration="30" complete="1" expand="true"/>
+                    <task id="569" name="Unit Testing Critical" meeting="false" start="2015-02-06" duration="30" complete="0" expand="true">
                         <depend id="571" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="571" name="Full Electrical testing" meeting="false" start="2015-03-08" duration="30" complete="0" expand="true"/>
+                    <task id="571" name="Full Electrical testing" meeting="false" start="2015-03-09" duration="30" complete="0" expand="true"/>
                 </task>
             </task>
-            <task id="322" name="Mount Powertrain" meeting="false" start="2015-03-08" duration="21" complete="0" expand="true">
+            <task id="322" name="Mount Powertrain" meeting="false" start="2015-03-09" duration="21" complete="0" expand="true">
                 <depend id="320" type="2" difference="0" hardness="Strong"/>
                 <depend id="324" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="320" name="Mount Electronics" color="#8cb6ce" meeting="false" start="2015-04-07" duration="7" complete="0" expand="true">
+            <task id="320" name="Mount Electronics" color="#8cb6ce" meeting="false" start="2015-04-08" duration="7" complete="0" expand="true">
                 <depend id="324" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="324" name="Assemble Full Vehicle" color="#8cb6ce" meeting="false" start="2015-04-14" duration="14" complete="0" expand="true"/>
+            <task id="324" name="Assemble Full Vehicle" color="#8cb6ce" meeting="false" start="2015-04-15" duration="14" complete="0" expand="true"/>
         </task>
-        <task id="134" name="Integration Testing (RW-3)" color="#8cb6ce" meeting="false" start="2015-04-28" duration="52" complete="0" expand="false">
-            <task id="314" name="First Spin" meeting="false" start="2015-04-28" duration="7" complete="0" expand="true">
+        <task id="134" name="Integration Testing (RW-3)" color="#8cb6ce" meeting="false" start="2015-04-29" duration="52" complete="0" expand="false">
+            <task id="314" name="First Spin" meeting="false" start="2015-04-29" duration="7" complete="0" expand="true">
                 <depend id="316" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="316" name="Vehicle Dyno Testing" meeting="false" start="2015-05-05" duration="15" complete="0" expand="true">
+            <task id="316" name="Vehicle Dyno Testing" meeting="false" start="2015-05-06" duration="15" complete="0" expand="true">
                 <depend id="318" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="318" name="Vehicle Road Testing" meeting="false" start="2015-05-20" duration="30" complete="0" expand="true"/>
+            <task id="318" name="Vehicle Road Testing" meeting="false" start="2015-05-21" duration="30" complete="0" expand="true"/>
         </task>
     </tasks>
     <resources/>
@@ -515,11 +523,11 @@
         <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd3" order="0" width="223" visible="true"/>
-        <displaycolumn property-id="tpd6" order="1" width="33" visible="true"/>
-        <displaycolumn property-id="tpd4" order="2" width="47" visible="true"/>
-        <displaycolumn property-id="tpd5" order="3" width="34" visible="true"/>
-        <displaycolumn property-id="tpc1" order="4" width="15" visible="true"/>
+        <displaycolumn property-id="tpd3" order="0" width="226" visible="true"/>
+        <displaycolumn property-id="tpd6" order="1" width="36" visible="true"/>
+        <displaycolumn property-id="tpd4" order="2" width="50" visible="true"/>
+        <displaycolumn property-id="tpd5" order="3" width="37" visible="true"/>
+        <displaycolumn property-id="tpc1" order="4" width="18" visible="true"/>
     </taskdisplaycolumns>
     <previous/>
     <roles roleset-name="Default"/>
