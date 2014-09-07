@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Pikes Peak 2014 2015" company="Buckeye Current" webLink="http://" view-date="2014-09-01" view-index="0" gantt-divider-location="222" resource-divider-location="300" version="2.0" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Pikes Peak 2014 2015" company="Buckeye Current" webLink="http://" view-date="2014-08-31" view-index="0" gantt-divider-location="510" resource-divider-location="300" version="2.0" locale="en_US">
     <description/>
-    <view zooming-state="default:8" id="gantt-chart">
-        <field id="tpd3" name="Name" width="52" order="0"/>
-        <field id="tpd6" name="Duration" width="11" order="1"/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Name" width="50" order="0"/>
+        <field id="tpd6" name="Duration" width="12" order="1"/>
         <field id="tpd4" name="Begin date" width="15" order="2"/>
         <field id="tpd5" name="End date" width="12" order="3"/>
-        <field id="tpc1" name="" width="7" order="4"/>
+        <field id="tpc1" name="" width="9" order="4"/>
         <option id="taskLabelUp" value=""/>
         <option id="taskLabelDown" value=""/>
         <option id="taskLabelLeft" value="name"/>
@@ -129,11 +129,14 @@
             <depend id="306" type="2" difference="0" hardness="Strong"/>
             <depend id="308" type="2" difference="0" hardness="Strong"/>
             <depend id="310" type="2" difference="0" hardness="Strong"/>
+            <depend id="925" type="2" difference="0" hardness="Strong"/>
+            <depend id="927" type="2" difference="0" hardness="Strong"/>
+            <depend id="929" type="2" difference="0" hardness="Strong"/>
         </task>
         <task id="133" name="Build (RW-3)" color="#8cb6ce" meeting="false" project="true" start="2014-07-20" duration="275" complete="0" expand="true">
             <depend id="134" type="2" difference="0" hardness="Strong"/>
             <depend id="314" type="2" difference="0" hardness="Strong"/>
-            <task id="304" name="Powertrain" meeting="false" start="2014-07-20" duration="224" complete="0" expand="true">
+            <task id="304" name="Powertrain" meeting="false" start="2014-07-20" duration="224" complete="0" expand="false">
                 <depend id="322" type="2" difference="0" hardness="Strong"/>
                 <task id="170" name="Define Requirements (Powertrain)" color="#8cb6ce" meeting="false" start="2014-07-20" duration="33" complete="0" expand="true">
                     <depend id="171" type="2" difference="0" hardness="Strong"/>
@@ -149,13 +152,13 @@
                     <depend id="340" type="2" difference="0" hardness="Strong"/>
                     <depend id="372" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="172" name="Build (Powertrain)" color="#8cb6ce" meeting="false" start="2014-08-29" duration="157" complete="0" expand="true">
+                <task id="172" name="Build (Powertrain)" color="#8cb6ce" meeting="false" start="2014-08-29" duration="157" complete="0" expand="false">
                     <task id="298" name="Motor" color="#000000" meeting="false" start="2014-08-29" duration="69" complete="0" expand="false">
                         <task id="248" name="Define Requirements (Motor)" color="#8cb6ce" meeting="false" start="2014-08-29" duration="1" complete="0" expand="true">
                             <depend id="246" type="2" difference="0" hardness="Strong"/>
                             <depend id="356" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="246" name="Design System (Motor)" color="#000000" meeting="false" start="2014-08-30" duration="8" complete="0" expand="false">
+                        <task id="246" name="Design System (Motor)" color="#000000" meeting="false" start="2014-08-30" duration="8" complete="0" expand="true">
                             <depend id="244" type="2" difference="0" hardness="Strong"/>
                             <depend id="364" type="2" difference="0" hardness="Strong"/>
                             <task id="356" name="Choose Motor" color="#8cb6ce" meeting="false" start="2014-08-30" duration="8" complete="0" expand="true">
@@ -164,7 +167,7 @@
                                 <depend id="481" type="2" difference="0" hardness="Strong"/>
                             </task>
                         </task>
-                        <task id="244" name="Build (Motor)" meeting="false" start="2014-09-08" duration="60" complete="0" expand="false">
+                        <task id="244" name="Build (Motor)" meeting="false" start="2014-09-08" duration="60" complete="0" expand="true">
                             <task id="364" name="Purchase Motor" color="#8cb6ce" meeting="false" start="2014-09-08" duration="30" complete="0" expand="true">
                                 <depend id="368" type="2" difference="0" hardness="Strong"/>
                             </task>
@@ -204,7 +207,7 @@
                             <depend id="296" type="2" difference="0" hardness="Strong"/>
                             <depend id="402" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="296" name="Design System (Pack)" meeting="false" start="2014-08-30" duration="22" complete="0" expand="true">
+                        <task id="296" name="Design System (Pack)" meeting="false" start="2014-08-30" duration="22" complete="0" expand="false">
                             <depend id="294" type="2" difference="0" hardness="Strong"/>
                             <depend id="412" type="2" difference="0" hardness="Strong"/>
                             <task id="402" name="Choose Battery" meeting="false" start="2014-08-30" duration="8" complete="0" expand="true">
@@ -214,7 +217,7 @@
                                 <depend id="474" type="2" difference="0" hardness="Strong"/>
                             </task>
                         </task>
-                        <task id="294" name="Build (Pack)" meeting="false" start="2014-09-22" duration="134" complete="0" expand="false">
+                        <task id="294" name="Build (Pack)" meeting="false" start="2014-09-22" duration="134" complete="0" expand="true">
                             <task id="412" name="Purchase Battery" meeting="false" start="2014-09-22" duration="30" complete="0" expand="true">
                                 <depend id="415" type="2" difference="0" hardness="Strong"/>
                             </task>
@@ -237,7 +240,7 @@
                         <depend id="370" type="2" difference="0" hardness="Strong"/>
                     </task>
                 </task>
-                <task id="173" name="Integration Testing (Powertrain)" color="#000000" meeting="false" start="2014-12-10" duration="85" complete="0" expand="true">
+                <task id="173" name="Integration Testing (Powertrain)" color="#000000" meeting="false" start="2014-12-10" duration="85" complete="0" expand="false">
                     <task id="370" name="Test Motor with Controller" color="#8cb6ce" meeting="false" start="2014-12-10" duration="60" complete="0" expand="true"/>
                     <task id="418" name="Test Battery with BMS" color="#8cb6ce" meeting="false" start="2015-02-06" duration="30" complete="0" expand="true"/>
                 </task>
@@ -255,7 +258,7 @@
                     <depend id="456" type="2" difference="0" hardness="Strong"/>
                     <depend id="499" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="215" name="Build (Chassis)" color="#000000" meeting="false" start="2014-08-31" duration="163" complete="0" expand="true">
+                <task id="215" name="Build (Chassis)" color="#000000" meeting="false" start="2014-08-31" duration="163" complete="0" expand="false">
                     <depend id="219" type="2" difference="0" hardness="Strong"/>
                     <depend id="424" type="2" difference="0" hardness="Strong"/>
                     <task id="425" name="Frame" meeting="false" start="2014-08-31" duration="109" complete="0" expand="false">
@@ -381,9 +384,21 @@
                     <depend id="233" type="2" difference="0" hardness="Strong"/>
                     <depend id="583" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="233" name="Design System (Aero)" meeting="false" start="2014-09-15" duration="86" complete="0" expand="false">
+                <task id="925" name="Ansys Setup" meeting="false" start="2014-07-20" duration="91" complete="0" expand="true">
+                    <depend id="579" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="927" name="Create Aero CAD library" meeting="false" start="2014-07-20" duration="91" complete="0" expand="true">
+                    <depend id="579" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="929" name="RW-2.X redesign" meeting="false" start="2014-07-20" duration="84" complete="0" expand="true">
+                    <depend id="573" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="233" name="Design System (Aero)" meeting="false" start="2014-09-15" duration="86" complete="0" expand="true">
                     <depend id="229" type="2" difference="0" hardness="Strong"/>
-                    <task id="583" name="Decide Fairing Material" color="#8cb6ce" meeting="false" start="2014-09-15" duration="7" complete="0" expand="true">
+                    <task id="933" name="Decide Mold Material" meeting="false" start="2014-09-15" duration="35" complete="0" expand="true">
+                        <depend id="579" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="583" name="Decide Fairing Material" color="#8cb6ce" meeting="false" start="2014-09-15" duration="65" complete="0" expand="true">
                         <depend id="585" type="2" difference="0" hardness="Strong"/>
                     </task>
                     <task id="573" name="Define Fairing Bounding Volume and Shape" meeting="false" start="2014-10-14" duration="7" complete="0" expand="true">
@@ -398,7 +413,7 @@
                         <depend id="587" type="2" difference="0" hardness="Strong"/>
                     </task>
                 </task>
-                <task id="229" name="Build (Aero)" meeting="false" start="2014-12-13" duration="67" complete="0" expand="false">
+                <task id="229" name="Build (Aero)" meeting="false" start="2014-12-13" duration="67" complete="0" expand="true">
                     <task id="587" name="Build Molds" meeting="false" start="2014-12-13" duration="30" complete="0" expand="true">
                         <depend id="592" type="2" difference="0" hardness="Strong"/>
                     </task>
@@ -408,7 +423,7 @@
                     <task id="861" name="Paint Fairings" meeting="false" start="2015-02-14" duration="7" complete="0" expand="true"/>
                 </task>
             </task>
-            <task id="308" name="Electronics" meeting="false" start="2014-07-20" duration="254" complete="0" expand="true">
+            <task id="308" name="Electronics" meeting="false" start="2014-07-20" duration="254" complete="0" expand="false">
                 <depend id="320" type="2" difference="0" hardness="Strong"/>
                 <task id="223" name="Define Requirements (Electronics)" color="#8cb6ce" meeting="false" start="2014-07-20" duration="43" complete="0" expand="true">
                     <depend id="221" type="2" difference="0" hardness="Strong"/>
@@ -416,7 +431,7 @@
                     <depend id="524" type="2" difference="0" hardness="Strong"/>
                     <depend id="526" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="221" name="Design (Electronics)" meeting="false" start="2014-09-02" duration="50" complete="0" expand="false">
+                <task id="221" name="Design (Electronics)" meeting="false" start="2014-09-02" duration="50" complete="0" expand="true">
                     <depend id="227" type="2" difference="0" hardness="Strong"/>
                     <depend id="537" type="2" difference="0" hardness="Strong"/>
                     <depend id="546" type="2" difference="0" hardness="Strong"/>
@@ -447,7 +462,7 @@
                         <depend id="921" type="2" difference="0" hardness="Strong"/>
                     </task>
                 </task>
-                <task id="227" name="Buid (Electronics)" color="#000000" meeting="false" start="2014-10-23" duration="101" complete="0" expand="true">
+                <task id="227" name="Buid (Electronics)" color="#000000" meeting="false" start="2014-10-23" duration="101" complete="0" expand="false">
                     <depend id="565" type="2" difference="0" hardness="Strong"/>
                     <depend id="567" type="2" difference="0" hardness="Strong"/>
                     <depend id="569" type="2" difference="0" hardness="Strong"/>
@@ -527,11 +542,11 @@
         <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd3" order="0" width="107" visible="true"/>
-        <displaycolumn property-id="tpd6" order="1" width="24" visible="true"/>
-        <displaycolumn property-id="tpd4" order="2" width="31" visible="true"/>
-        <displaycolumn property-id="tpd5" order="3" width="25" visible="true"/>
-        <displaycolumn property-id="tpc1" order="4" width="16" visible="true"/>
+        <displaycolumn property-id="tpd3" order="0" width="254" visible="true"/>
+        <displaycolumn property-id="tpd6" order="1" width="64" visible="true"/>
+        <displaycolumn property-id="tpd4" order="2" width="78" visible="true"/>
+        <displaycolumn property-id="tpd5" order="3" width="64" visible="true"/>
+        <displaycolumn property-id="tpc1" order="4" width="46" visible="true"/>
     </taskdisplaycolumns>
     <previous/>
     <roles roleset-name="Default"/>
